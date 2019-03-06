@@ -73,6 +73,10 @@ setuptools.setup(
     author_email=__email__,
     license=__license__,
     url=__url__,
+    install_requires=[
+        'idx2numpy>=1.2.2',
+        'newskylabs-utilities @ git+https://github.com/newskylabs/newskylabs-utilities#egg=newskylabs-utilities-0.0.1.dev1',
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: Apache Software License',
